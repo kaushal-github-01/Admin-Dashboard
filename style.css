@@ -39,6 +39,7 @@
 .sidebar a {
   text-decoration: none;
   color: white;
+  padding-left: 2vh;
 }
 
 .logo {
@@ -56,6 +57,11 @@
   padding-left: 1.75vh;
 }
 
+.main-links {
+  display: flex;
+  align-items: center;
+}
+
 .main-link img {
   height: 4vh;
   width: 4vh;
@@ -69,6 +75,11 @@
 .extra-link {
   display: grid;
   padding-left: 1.75vh;
+}
+
+.extra-links {
+  display: flex;
+  align-items: center;
 }
 
 .extra-link img {
