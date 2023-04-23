@@ -6,7 +6,7 @@
 
 .container {
   display: grid;
-  grid-template: 1fr 5fr / 1fr 4fr;
+  grid-template: 1fr 4fr / 1fr 4fr;
 }
 
 /* This is header class */
@@ -59,6 +59,33 @@
   display: inline;
 }
 
+.lower-header {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: blanchedalmond; */
+  margin: 35px 0px 0px 0px;
+}
+
+.lower-header-left {
+  display: flex;
+}
+
+.lower-header-left img {
+  height: 40px;
+  width: 40px;
+  border-radius: 25px;
+  margin-right: 25px;
+}
+
+.lower-header-right .btns {
+  background-color: dodgerblue;
+  color: white;
+  padding: 7px 20px;
+  border-radius: 15px;
+  font-size: 15px;
+  margin-left: 15px;
+}
+
 /* This is sidebar class */
 
 .sidebar {
@@ -67,9 +94,9 @@
   color: white;
   background-color: dodgerblue;
   display: grid;
-  grid-template-rows: 1fr 4fr 2fr;
+  grid-template-rows: 50px 275px 125px;
   gap: 5vh;
-  height: 100vh;
+  height: 100%;
   padding: 3vh 2vh;
 }
 
@@ -133,4 +160,5 @@
 /* This is main-content class */
 
 .main-content {
+  background-color: rgb(111, 228, 228);
 }
