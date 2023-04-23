@@ -14,6 +14,49 @@
 .header {
   grid-row: 1/2;
   grid-column: 2/3;
+  padding: 2vh 7vh;
+}
+
+.upper-header {
+  display: grid;
+  grid-template-columns: 2.5fr 1fr;
+}
+
+.upper-header img {
+  height: 3.5vh;
+  width: 3.5vh;
+}
+
+.left-upper-header {
+  display: flex;
+  padding-right: 10vh;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-bar {
+  border: none;
+  border-radius: 20px;
+  padding: 5px 10px;
+  background-color: rgb(111, 228, 228);
+  width: 100vh;
+}
+
+.right-upper-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 30px 0px 65px;
+}
+
+.right-upper-header .users {
+  height: 7vh;
+  width: 7vh;
+  border-radius: 23px;
+}
+
+.right-upper-header h2 {
+  display: inline;
 }
 
 /* This is sidebar class */
